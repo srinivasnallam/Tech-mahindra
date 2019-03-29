@@ -1,0 +1,634 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>upX</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Camping Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script>
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+    </script>
+    <!-- //Meta tag Keywords -->
+
+    <!-- Custom-Files -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!-- Style-CSS -->
+    <!-- font-awesome-icons -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome-icons -->
+    <!-- /Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800" rel="stylesheet">
+    <!-- //Fonts -->
+
+</head>
+
+<body>
+    <!-- mian-content -->
+    <div class="main-content" id="home">
+     
+        <!-- header -->
+        <header class="header">
+            <div class="container">
+                <!-- nav -->
+                <nav class="py-3">
+                    <div id="logo">
+                         <a><img src="https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/hyphen.png" title="UpX INFOSESSION class="img-responsive" /></a>
+                    </div>
+
+                    <label for="drop" class="toggle">Menu</label>
+                    <input type="checkbox" id="drop" />
+                    <ul class="menu mt-2">
+                        <li class="active" id="home"><a href="#home">Home</a></li>
+                        <li><a href="#highlights">Course Highlights</a></li>
+                        <li>
+                            <!-- First Tier Drop Down -->
+                            <label for="drop-2" class="toggle">Drop Down <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
+                            <a href="#">Learning Path<span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                            <input type="checkbox" id="drop-2" />
+                            <ul>
+                                <li style="margin-top: 0px;"><a href="#bigdata">Bigdata</a>
+                                </li>
+                                <li style="margin-top: 0px;"><a href="#datascience">Data Science</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#about">About</a>
+                        </li>
+                      
+                    </ul>
+
+
+                </nav>
+                <!-- //nav -->
+            </div>
+        </header>
+        <!-- //header -->
+        <!-- banner -->
+        <section class="banner">
+            <div class="container">
+                <div class="row banner-grids">
+                    <div class="col-lg-6 banner-info-w3ls">
+                        <h4 class="mb-3">6 MONTH CERTIFICATE PROGRAM IN BIG DATA AND DATA SCIENCE</h4>
+                        <p class="mb-4"> Interactive session discussing course structure, curriculum and timings about upcoming batches. 
+                        </p>
+                        <p class="mb-4"> Wanna register in this interaction section???? 
+                        </p>
+                        <button class="open-button" onclick="openForm()">Register Here!!!</button>
+
+								<div class="form-popup" id="myForm">
+								  <form action="/action_page.php" class="form-container">
+								    <input type="text" placeholder="First Name" name="email" required>
+								    <input type="text" placeholder="Last Name" name="email" required>
+								    <input type="text" placeholder="Email" name="email" required>
+								    <input type="text" placeholder="phone" name="email" required>
+
+								   
+
+								    <button onclick="redirect()" class="btn">SAVE MY SPOT</button>
+								    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+								  </form>
+								</div>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+         <div id="logo">
+              <a style="margin-left:120px"><img src="images\techmahindra.png" title="Tech mahindra" class="img-responsive" /></a>
+         </div>
+    </div>
+    
+    <!--/ab -->
+    <section class="about py-lg-5 py-md-5 py-5">
+        <div class="container" >
+            <div class="inner-sec-w3pvt py-lg-5 py-3">
+                <h3 class="tittle text-center mb-lg-5 mb-3 px-lg-5" id="highlights">COURSE HIGHLIGHTS </h3>
+                <div class="feature-grids row mt-3 mb-lg-5 mb-3 mt-lg-5 text-center">
+                    <div class="col-lg-3" data-aos="fade-up">
+                        <div class="bottom-gd px-3">
+                            <img src="images\a1.png" aria-hidden="true">
+                            <h3 class="my-4"> </h3>
+                            <p>Online, live &amp; Interactive sessions with use cases, theory and projects</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3" data-aos="fade-up">
+                        <div class="bottom-gd2-active px-3">
+                            <img src="images\a2.png" aria-hidden="true">
+                            <h3 class="my-4"> </h3>
+                            <p>Hands-on experience with real world datasets from BFSI, Entertainment &amp; Sports</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3" data-aos="fade-up">
+                        <div class="bottom-gd px-3">
+                            <img src="images\a3.png" aria-hidden="true">
+                            <h3 class="my-4"></h3>
+                            <p>Best in class curriculum designed by Industry experts with pre-reads, videos, assignments &amp; installation guides</p>
+                        </div>
+                    </div>
+                     <div class="col-lg-3" data-aos="fade-up">
+                        <div class="bottom-gd px-3">
+                            <img src="images\a4.png" aria-hidden="true">
+                            <h3 class="my-4"></h3>
+                            <p>Industry recognised certification by TECH MAHINDRA</p>
+                        </div>
+                    </div>
+
+
+                </div>
+<section class="banner-bottom py-lg-5 py-4">
+        <div class="container">
+            <div class="inner-sec-w3pvt speak">
+                <h3 class="tittle  text-center my-lg-5 my-3">OUR SPEAKERS</h3>
+                <div class="row mt-lg-5 mt-4">
+                    <div class="col-md-4 team-gd text-center">
+                        <div class="team-img mb-4">
+                            <img src="images\s1.png " class="img-fluid" alt="user-image">
+                        </div>
+                        <div class="team-info">
+                            <h3 class="mt-md-4 mt-3">Manvender Singh</h3>
+                            <p>Founder &amp; CEO UpX Academy MBA, ISB</p>
+                            <ul class="top-right-info text-center mt-md-4 mt-3">
+                                
+                                <li class="mr-1">
+                                    <a href="#">
+											<span class="fa fa-facebook-f"></span>
+										</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+											<span class="fa fa-twitter"></span>
+										</a>
+                                </li>
+                                <li class="mx-1">
+                                    <a href="#">
+											<span class="fa fa-google-plus"></span>
+										</a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 team-gd second text-center">
+                        <div class="team-img mb-4">
+                            <img src="images/s2.png" class="img-fluid" alt="user-image">
+                        </div>
+                        <div class="team-info">
+                            <h3 class="mt-md-4 mt-3">Suchit Majumdar</h3>
+                            <p>IoT &amp; Smart City consultant
+with AP Government<br>
+MBA, ISB</p>
+                           <ul class="top-right-info text-center mt-md-4 mt-3">
+                                
+                                <li class="mr-1">
+                                    <a href="#">
+											<span class="fa fa-facebook-f"></span>
+										</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+											<span class="fa fa-twitter"></span>
+										</a>
+                                </li>
+                               
+                                <li>
+                                    <a href="#">
+											<span class="fa fa-dribbble"></span>
+										</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 team-gd text-center">
+                        <div class="team-img mb-4">
+                            <img src="images/s3.png" class="img-fluid" alt="user-image">
+                        </div>
+                        <div class="team-info">
+                            <h3 class="mt-md-4 mt-3">Arun K</h3>
+                            <p>Healthcare Analytics Expert
+University of Cologne.</p>
+                            <ul class="top-right-info text-center mt-md-4 mt-3">
+                                
+                                <li class="mr-1">
+                                    <a href="#">
+											<span class="fa fa-facebook-f"></span>
+										</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+											<span class="fa fa-twitter"></span>
+										</a>
+                                </li>
+                                <li class="mx-1">
+                                    <a href="#">
+											<span class="fa fa-google-plus"></span>
+										</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+				<div class="fetured-info pt-lg-5">
+					<h3 class="tittle  text-center my-lg-5 my-3">LEARNING PATH</h3>
+                   
+                    <div class="row fetured-sec mt-lg-5 mt-3">
+                        <div class="col-lg-12 p-0">
+                            <div class="img-effect" id="bigdata">
+                                <img src="images\bigdata.png" alt="" class="img-fluid image1">
+                            </div>
+
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="fetured-info pt-lg-5">
+                   
+                    <div class="row fetured-sec mt-lg-5 mt-3">
+                        <div class="col-lg-12 p-0" id="datascience">
+                            <div class="img-effect">
+                                <img src="images\datascience.png" alt="" class="img-fluid image1">
+                            </div>
+
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //services -->
+    </section>
+    <!-- //ab -->
+    <!--/counter-->
+   
+    <!--//counter-->
+    <!--//team -->
+    
+    <!--//team -->
+   
+    <!-- portfolio -->
+    <section class="portfolio-flyer py-5" id="gallery">
+        <div class="container pt-lg-3 pb-md-5">
+            <h3 class="tittle  text-center my-lg-5 my-3">World Class Faculty</h3>
+
+            <div class="row news-grids pb-lg-5 mt-3 mt-lg-5">
+                <div class="col-lg-4 gal-img">
+                    <div class="gal-info">
+                        <a href="#gal1"><img src="images\Google.png" alt="news image" class="img-fluid"></a>
+                        <div class="property-info-list">
+                            <div class="detail">
+                                <h4 class="title">
+                                    <a href="about.html">Big Data Consultant &amp; Trainer</a>
+                                </h4>
+                                <h5 class="title"><a>california</h6>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 gal-img">
+                    <div class="gal-info">
+                        <a href="#gal2"><img src="images\kabbage.png" alt="news image" class="img-fluid"></a>
+                        <div class="property-info-list">
+                            <div class="detail">
+                                <h4 class="title">
+                                    <a href="about.html">Head of Analytics</a>
+                                </h4>
+                                <h5 class="title"><a>Kabbage Inc</h5>
+                                
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 gal-img">
+                    <div class="gal-info">
+                        <a href="#gal3"><img src="images\ISB.png" alt="news image" class="img-fluid"></a>
+                        <div class="property-info-list">
+                            <div class="detail">
+                                <h4 class="title">
+                                    <a href="about.html">IoT &amp; Smart City expert,</a>
+                                </h4>
+                                <h5 class="title"><a>Data Scientist</h5>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 gal-img mt-lg-4">
+                    <div class="gal-info">
+                        <a href="#gal4"><img src="images\ibm.png" alt="news image" class="img-fluid"></a>
+                        <div class="property-info-list">
+                           <div class="detail">
+                                <h4 class="title">
+                                    <a href="about.html">Principal Data Scientist</a>
+                                </h4>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 gal-img mt-lg-4">
+                    <div class="gal-info">
+                        <a href="#gal5"><img src="images\flipkart.png" alt="news image" class="img-fluid"></a>
+                        <div class="property-info-list">
+                             <div class="detail">
+                                <h4 class="title">
+                                    <a href="about.html">Big Data Trainer</a>
+                                </h4>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 gal-img mt-lg-4">
+                    <div class="gal-info">
+                        <a href="#gal6"><img src="images\hp.png" alt="news image" class="img-fluid"></a>
+                        <div class="property-info-list">
+                           <div class="detail">
+                                <h4 class="title">
+                                    <a href="about.html">Principal Data Scientist</a>
+                                </h4>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-lg-4 gal-img mt-lg-4">
+                    <div class="gal-info">
+                        <a href="#gal6"><img src="images\jio.png" alt="news image" class="img-fluid"></a>
+                        <div class="property-info-list">
+                           <div class="detail">
+                                <h4 class="title">
+                                    <a href="about.html">Principal Data Scientist</a>
+                                </h4>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+             <div class="col-lg-4 gal-img mt-lg-4">
+                    <div class="gal-info">
+                        <a href="#gal6"><img src="images\cologne.png" alt="news image" class="img-fluid"></a>
+                        <div class="property-info-list">
+                           <div class="detail">
+                                <h4 class="title">
+                                    <a href="about.html">Principal Data Scientist</a>
+                                </h4>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </section>
+    <!-- //portfolio -->
+    <!-- popup-->
+    <div id="gal1" class="pop-overlay animate">
+        <div class="popup">
+            <img src="images/1.jpg" alt="Popup Image" class="img-fluid" />
+            
+            <a class="close" href="#gallery">&times;</a>
+        </div>
+    </div>
+    <!-- //popup -->
+
+    <!-- popup-->
+    <div id="gal2" class="pop-overlay animate">
+        <div class="popup">
+            <img src="images/2.jpg" alt="Popup Image" class="img-fluid" />
+           
+            <a class="close" href="#gallery">&times;</a>
+        </div>
+    </div>
+    <!-- //popup -->
+    <!-- popup-->
+    <div id="gal3" class="pop-overlay animate">
+        <div class="popup">
+            <img src="images/3.jpg" alt="Popup Image" class="img-fluid" />
+            
+            <a class="close" href="#gallery">&times;</a>
+        </div>
+    </div>
+    <!-- //popup3 -->
+    <!-- popup-->
+    <div id="gal4" class="pop-overlay animate">
+        <div class="popup">
+            <img src="images/4.jpg" alt="Popup Image" class="img-fluid" />
+            
+            <a class="close" href="#gallery">&times;</a>
+        </div>
+    </div>
+    <!-- //popup -->
+    <!-- popup-->
+    <div id="gal5" class="pop-overlay animate">
+        <div class="popup">
+            <img src="images/5.jpg" alt="Popup Image" class="img-fluid" />
+           
+            <a class="close" href="#gallery">&times;</a>
+        </div>
+    </div>
+    <!-- //popup -->
+    <!-- popup-->
+    <div id="gal6" class="pop-overlay animate">
+        <div class="popup">
+            <img src="images/6.jpg" alt="Popup Image" class="img-fluid" />
+            
+            <a class="close" href="#gallery">&times;</a>
+        </div>
+    </div>
+    <!-- //popup -->
+
+
+    <!--//portfolio-->
+    <!-- /hand-crafted -->
+    <section class="hand-crafted py-5">
+        <div class="container py-lg-5">
+            <div class="row accord-info">
+                <div class="col-lg-6 pl-md-5">
+
+                    <h3 class="mb-md-5 tittle" id="about">About UpX Academy</h3>
+
+                    <p>In today’s digital age, data has the potential to transform businesses through insights and analytics. However, this 
+power still awaits to be fully harnessed. As a world-class educational venture, we recognize this challenge and are 
+therefore committed to empower professionals through transformational courses in Big Data and Data Science.</p>
+                    
+                </div>
+                <div class="col-lg-6 banner-image">
+                    <div class="img-effect">
+                        
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- //hand-crafted -->
+
+    <!-- testimonials -->
+    <div class="testimonials py-md-5 py-5">
+        <div class="container py-xl-5 py-lg-3">
+            <h3 class="tittle  text-center mb-lg-5 mb-3">UpX Student Speak</h3>
+
+            <div class="testimonials_grid_w3ls mt-lg-0 mt-4">
+                <div class="p-md-5 p-4">
+                    <p class="sub-test"><span class="fa fa-quote-left" aria-hidden="true"></span>UpX Academy has understood the Big Data Analytics space fairly well and are doinga brilliant job in educating 
+young leaders and professionals who look forward to join this sector.
+                    </p>
+                    <div class="row mt-8">
+                        <div class="col-9 testi_grid mt-xl-3 mt-lg-2 mt-md-4 mt-2">
+                            <h5 class="mb-2">- Jai Kumar</h5>
+                            <p>- Director, BI, NTT DATA</p>
+                        </div>
+                    </div>
+
+                        <p class="sub-test"><span class="fa fa-quote-left" aria-hidden="true"></span>UpX Academy has excellent faculty on-board that brings in industry perspective in their programs. The five week 
+training they conducted has helped my team adopt the latest Big Data Analytics practices. 
+                    </p>
+                    <div class="row mt-8">
+                        <div class="col-9 testi_grid mt-xl-3 mt-lg-2 mt-md-4 mt-2">
+                            <h5 class="mb-2">- Puneet Sakhuja</h5>
+                            <p>- BI,Analytics- Practice leader,Tech Mahindra</p>
+                        </div>
+                    </div>
+                             <p class="sub-test"><span class="fa fa-quote-left" aria-hidden="true"></span>Initially, we were a bit apprehensive about online trainings. But the interactive approach, support and the way the 
+trainings were organized impressed my team. The pace of the training was perfect and suitable for even beginners 
+in this area.
+                    </p>
+                    <div class="row mt-8">
+                        <div class="col-9 testi_grid mt-xl-3 mt-lg-2 mt-md-4 mt-2">
+                            <h5 class="mb-2">- Siddharth Bhattacharya</h5>
+                            <p>- AVP Analytics, Barclays</p>
+                        </div>
+                    </div>
+                
+
+        </div>
+    </div>
+</div>
+
+    <!-- //testimonials -->
+    <!--footer -->
+    <footer>
+        <div class="footer_1its py-5">
+            <div class="container py-md-4">
+
+                <div class="row footer-top mb-md-5 mb-4">
+                    <div class="col-lg-4 col-md-6 footer-grid_section_1its" data-aos="fade-right">
+                        <div class="footer-title-w3pvt">
+                            <h3>Contact Us</h3>
+                        </div>
+                        <div class="footer-text">
+                            
+                            <p>Website : www.upxacademy.com</p>
+                            <p>Email : <a href="mailto:info@upxacademy.com"> info@upxacademy.com</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-md-0 mt-4 footer-grid_section_1its">
+                        <div class="footer-title-w3pvt">
+                            <h3></h3>
+                        </div>
+                         <div class="row no-gutters">
+                            <ul class="links">
+                                <li><a ></a></li>
+                                <li><a > </a></li>
+                                <li><a ></a></li>
+
+                                <li><a ></a></li>
+                                <li><a ></a></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 mt-lg-0 mt-4 col-sm-12 footer-grid_section_1its" data-aos="fade-left">
+                        <div class="footer-title-w3pvt">
+                            <h3>Newsletter</h3>
+                        </div>
+                        <div class="footer-text">
+                            <p>By subscribing to our mailing list you will always get latest news and updates from us.</p>
+                            <form action="#" method="post">
+                                <input type="email" name="Email" placeholder="Enter your email..." required="">
+                                <button class="btn1"><span class="fa fa-paper-plane-o" aria-hidden="true"></span></button>
+                                <div class="clearfix"> </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+    <!-- copyright -->
+    <div class="cpy-right py-3">
+	<div class="container">
+		<div class="row no-gutters">
+		<div class="col-md-8">
+			
+		</div>
+        <div class="col-md-4 footer-grid_section">
+			<ul class="top-right-info">
+                                
+                                <li class="mr-1">
+                                    <a href="#">
+											<span class="fa fa-facebook-f"></span></a>
+                                </li>
+                                <li>
+                                    <a href="#">
+											<span class="fa fa-twitter"></span></a>
+                                </li>
+                                <li class="mx-1">
+                                    <a href="#">
+											<span class="fa fa-google-plus"></span></a>
+                                </li>
+                                <li>
+                                    <a href="#">
+											<span class="fa fa-dribbble"></span></a>
+                                </li>
+                            </ul>
+                </div>
+			</div>
+    </div>
+	</div>
+</body>
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+
+function redirect(){
+	window.location.href="http://events.upxacademy.com/Thank-You-Page?mxcpi=0e17fbc1-c60c-4a2f-b297-92bd9fdf453e";
+}
+</script>
+<script src="smooth-scroll.js">
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+
+
+
+</html>
